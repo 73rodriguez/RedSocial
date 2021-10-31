@@ -1,9 +1,15 @@
 *{margin: 0%;
 padding: 0%;
 box-sizing: border-box;}
-body {background-color: turquoise;
-max-width: 499px;
-height: 100vh;}
+body {background-color: white;
+max-width: 450px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-right: 5%;
+}
 header{
     height: 8%;
     width: 100%;
@@ -17,3 +23,33 @@ img{width: 10%;
     }
 .menuPuntos{margin-left: 50%;}
 h1{margin-left: 5%;}
+.boxPerfil{width: 80%;
+height: 22%;
+background-color: #F5E5E5;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;}
+.boxFotosPerfil{
+    height: 60%;
+    width: 30%;}
+    .fotosPerfil{
+        width: 100%;
+        height: 100%;
+    border-radius: 50%;}
+.boxGallery{
+    height: 60%;
+    width: 90%;
+    background-color: #F5E5E5;
+    margin-bottom: 14%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.fotosDeGallery{
+    height: 30%;
+    width: 30%;
+}
